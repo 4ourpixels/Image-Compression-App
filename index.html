@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4our Pixels - Creative Agency</title>
+    <!-- Favicon for all devices -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="./image/favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./image/favicon/favicon-16x16.png"
+    />
+
+    <!-- iOS specific favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./image/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./image/favicon/apple-touch-icon.png"
+    />
+
+    <!-- Android Chrome specific favicon -->
+    <link rel="manifest" href="./image/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#30d5c8" />
+
+    <!-- Microsoft specific favicon -->
+    <meta name="msapplication-TileImage" content="./image/favicon/4white.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <!-- Other favicons -->
+    <link
+      rel="mask-icon"
+      href="./image/favicon//image/favicon/4white.png"
+      color="#30d5c8"
+    />
+    <meta name="msapplication-config" content="./browserconfig.xml" />
+    <meta name="theme-color" content="#30d5c8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/215638c07f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="#header_four_pixels">
+      <video autoplay muted loop id="video-background">
+        <source src="./video/720.mp4" type="video/mp4" />
+      </video>
+      <div class="container">
+        <nav>
+          <img src="./image/4pixels.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./web_blog.html">Blog</a></li>
+            <li><a href="./services.html">Projects</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <small>Creative Agency</small>
+          <h1>
+            <small style="font-size: 3rem">Welcome to</small> <br />
+            <span>4our</span> Pixels
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!------aboout------->
+    <div id="about">
+      <div class="container text-center">
+        <p>
+          Creative agency specialising in graphic design, web/app development,
+          animation and more.
+        </p>
+        <br />
+        <hr />
+        <div class="social-icons">
+          <a href="https://github.com/4ourpixels"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
+            ><i class="fa-solid fa-podcast"></i
+          ></a>
+          <a href="https://www.instagram.com/4ourpixels"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.twitter.com/4ourpixels"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UC9HP_DqruMAplsz0-ynveaQ"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+          <a href="https://www.mixcloud.com/djg400"
+            ><i class="fa-brands fa-mixcloud"></i
+          ></a>
+          <a href="https://hearthis.at/djg400/"
+            ><img class="hearthis" src="./image/hearthis.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+    <!------Services------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web/App Development</h2>
+            <a href="./web_blog.html">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Graphic Design</h2>
+            <a href="./qr.html">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-file-audio"></i>
+            <h2>Video/Audio Production</h2>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------portfolio-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./image/lukustore.jpg" />
+            <div class="layer">
+              <h3>E-commerce Website</h3>
+              <p>
+                Clothing store based in the Netherlands.
+                <br />
+                Click the link to check out some cool threads!
+              </p>
+              <a href="http://4ourpixel.pythonanywhere.com/"
+                ><i style="cursor: pointer" class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./image/work-2.png" />
+            <div class="layer">
+              <h3>Image Processor App</h3>
+              <p>
+                Create And Customize a QR Code, compress images and more. Check
+                out the app below.
+              </p>
+              <a style="cursor: pointer" href="./qr.html"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./image/mixes.png" />
+            <div class="layer">
+              <h3>DJ Mixes</h3>
+              <p>
+                Stream and download high quality video mixes. <br />
+                Note: No ad interruptions!
+              </p>
+              <a style="cursor: pointer" href="./services.html"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------Brands-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Worked with these incredible brands.</h1>
+        <div class="services-list">
+          <div>
+            <img height="50" c src="./image/brands/lukustore.png" alt="" />
+            <h2>Luku Store</h2>
+            <p>An online e-commerce store based in Netherlands.</p>
+            <a href="https://4ourpixel.pythonanywhere.com/">View</a>
+          </div>
+
+          <div>
+            <img height="50" c src="./image/brands/ask.png" alt="" />
+            <h2>African Spice Kitchen</h2>
+            <p>
+              Website bringing the taste of Africa to the city ofr Perth,
+              Australia.
+            </p>
+            <a href="https://4ourpixels.github.io/African-Spice-Kitchen/"
+              >View</a
+            >
+          </div>
+
+          <div>
+            <img height="50" c src="./image/brands/vomsaj.png" alt="" />
+            <h2>Vom Saj Kennels</h2>
+            <p>
+              A pet service company operating in Kenya and neighboring countries
+            </p>
+            <a href="https://4ourpixels.github.io/Vom-Saj-Kennels/">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------contact-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact &raquo;</h1>
+            <img
+              height="200"
+              style="margin-top: 3rem; margin-left: 5rem"
+              src="./image/4logo.png"
+              alt=""
+            />
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                type="text"
+                name="Message"
+                rows="6"
+                placeholder="Your Message..."
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2023 4our Pixels</p>
+      </div>
+    </div>
+    <script src="./image/js.js"></script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwLq3Nzvc_DU_3lJQD3jU3RTljc6XdwQJmOlNrcgZmDSIhyjITbEOH9Y4T4_UTej5YG6Q/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>

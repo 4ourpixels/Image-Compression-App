@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4our Pixels - Sign In</title>
+    <!-- Favicon for all devices -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="./image/favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./image/favicon/favicon-16x16.png"
+    />
+
+    <!-- iOS specific favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./image/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./image/favicon/apple-touch-icon.png"
+    />
+
+    <!-- Android Chrome specific favicon -->
+    <link rel="manifest" href="./image/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#30d5c8" />
+
+    <!-- Microsoft specific favicon -->
+    <meta name="msapplication-TileImage" content="./image/favicon/4white.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <!-- Other favicons -->
+    <link
+      rel="mask-icon"
+      href="./image/favicon//image/favicon/4white.png"
+      color="#30d5c8"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/215638c07f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="text-center">
+    <div class="container">
+      <main class="form-signin">
+        <form>
+          <img
+            style="object-fit: cover"
+            class="mb-4"
+            src="./image/4logo.png"
+            alt=""
+            width="72"
+            height="57"
+          />
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+          <div class="form-floating">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input
+              type="password"
+              class="form-control"
+              id="floatingPassword"
+              placeholder="Password"
+            />
+            <label for="floatingPassword">Password</label>
+          </div>
+
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me" /> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">
+            Sign in
+          </button>
+          <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

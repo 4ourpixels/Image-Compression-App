@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4our Pixels - Web Development</title>
+    <!-- Favicon for all devices -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="./image/favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./image/favicon/favicon-16x16.png"
+    />
+
+    <!-- iOS specific favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./image/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./image/favicon/apple-touch-icon.png"
+    />
+
+    <!-- Android Chrome specific favicon -->
+    <link rel="manifest" href="./image/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#30d5c8" />
+
+    <!-- Microsoft specific favicon -->
+    <meta name="msapplication-TileImage" content="./image/favicon/4white.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <!-- Other favicons -->
+    <link
+      rel="mask-icon"
+      href="./image/favicon//image/favicon/4white.png"
+      color="#30d5c8"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/215638c07f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header2">
+      <div class="container">
+        <nav>
+          <img src="image/4pixels.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./image_compression_blog.html">Blog</a></li>
+            <li><a href="./services.html">Projects</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Blog</p>
+          <h1 style="font-weight: 900">
+            Web/App <br />
+            <span>Development</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!------aboout------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2">
+            <br />
+            <h1>Why Having a Website Is So Freakin' Important Right Now!</h1>
+            <br />
+          </div>
+          <div class="about-col-1">
+            <img
+              style="filter: grayscale(100%)"
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1630&q=80"
+            />
+          </div>
+        </div>
+        <p class="mt-5">
+          Having a kick-ass website is essential for establishing your startup
+          agency's street cred. It serves as a platform to showcase your
+          exceptional skills, share remarkable success stories, and allow your
+          clients or customers to sing your praises. A meticulously designed and
+          user-friendly website exudes professionalism, demonstrating to the
+          world that you mean business and possess extensive expertise. So,
+          let's dive right in and have a conversation, shall we?
+        </p>
+        <p class="mt-5">
+          Seize the opportunity to conquer the digital realm and craft a website
+          that truly stands out. Embrace the revolutionary power of the digital
+          age and witness your online presence soar to unprecedented heights.
+          Together, let's unleash a website that leaves a lasting impression and
+          propels your startup agency towards extraordinary success.
+        </p>
+      </div>
+      <a href="./image_compression_blog.html" class="btn btn-outline-secondary"
+        >Read More Blogs</a
+      >
+    </div>
+    <div class="container">
+      <hr />
+    </div>
+    <!------Services------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Technologies we use</h1>
+        <div class="services-list">
+          <div>
+            <h2>Web/App Development</h2>
+            <ul class="list-unstyled">
+              <li class="">HTML5, CSS5, JavaScript</li>
+              <li class="">Python</li>
+              <li class="">Bootstrap</li>
+              <li class="">React</li>
+              <li class="">Django</li>
+              <li class="">AWS, S3</li>
+              <li class="">Vercel</li>
+              <li class="">Netlify</li>
+              <li class="">Github</li>
+              <li class="">Postgresql</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Graphic Design:</h2>
+            <ul class="list-unstyled">
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Adobe Lightroom</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Video/Audio Production</h2>
+            <ul class="list-unstyled">
+              <li>Sony Sound Forge Pro</li>
+              <li>Sony Acid Pro</li>
+              <li>Audacity</li>
+              <li>Adobe Premiere Pro</li>
+              <li>Adobe After Effects</li>
+              <li>Serato DJ Pro</li>
+              <li>Pioneer</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Tools</h2>
+            <ul class="list-unstyled">
+              <li>Recuva</li>
+              <li>Handbrake</li>
+              <li>OpenAI ChatGPT</li>
+              <li>Google Docs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr />
+    </div>
+    <div class="container">
+      <h1 class="text-center mb-4">Pricing</h1>
+      <h5 class="text-center text-muted">
+        Tailored design packages to meet your specific needs. Logo, branding,
+        print and digital design, web development, and maintenance services for
+        any budget.
+      </h5>
+      <br />
+      <br />
+      <br />
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div
+            style="background-color: #262626; border-color: #262626"
+            class="card mb-4 rounded-3 shadow-sm"
+          >
+            <div class="card-header py-3">
+              <h4 style="color: #ababab" class="my-0 fw-normal">Package 1</h4>
+            </div>
+            <div style="background-color: #000000" class="card-body">
+              <h1 style="color: #ababab" class="card-title pricing-card-title">
+                $500
+              </h1>
+              <ul style="color: #ababab" class="list-unstyled mt-3 mb-4">
+                <li>5 Pages</li>
+                <li>Responsive Design</li>
+                <li>Contact Form Integration</li>
+                <li>Basic on-page SEO</li>
+                <li>CDN (Content Management System)</li>
+              </ul>
+              <a
+                href="#form"
+                style="color: #ababab"
+                type="button"
+                class="w-100 btn btn-outline-dark"
+              >
+                Get started
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            style="background-color: #262626; border-color: #262626"
+            class="card mb-4 rounded-3 shadow-sm"
+          >
+            <div class="card-header py-3">
+              <h4 style="color: #ababab" class="my-0 fw-normal">Pro Package</h4>
+            </div>
+            <div style="background-color: #000000" class="card-body">
+              <h1 style="color: #ababab" class="card-title pricing-card-title">
+                $1500
+              </h1>
+              <ul style="color: #ababab" class="list-unstyled mt-3 mb-4">
+                <li>Custom design and layout</li>
+                <li>Up to 10 pages</li>
+                <li>Media Gallery Integration</li>
+                <li>Blog setup</li>
+                <li>Enhanced SEO optimization</li>
+              </ul>
+              <a
+                href="#form"
+                style="color: #ababab"
+                type="button"
+                class="w-100 btn"
+              >
+                Get started
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            style="border-color: #30d5c8"
+            class="card mb-4 rounded-3 shadow-sm"
+          >
+            <div
+              style="background-color: #30d5c8; border-color: #30d5c8"
+              class="card-header py-3"
+            >
+              <h4 class="my-0 fw-normal text-dark">Enterprise Package</h4>
+            </div>
+            <div
+              style="background-color: #000000; color: #ababab"
+              class="card-body"
+            >
+              <h1 class="card-title pricing-card-title">$3000</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Product listing and management</li>
+                <li>Order Management System</li>
+                <li>Registration and Authentication</li>
+                <li>Payment Gateway Integration</li>
+                <li>Website analytics and reporting</li>
+              </ul>
+              <a
+                href="#form"
+                style="background-color: #30d5c8"
+                type="button"
+                class="w-100 btn text-dark"
+              >
+                Contact us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------contact-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Get <br />Started</h1>
+            <img
+              height="200"
+              style="margin-top: 3rem; margin-left: 5rem"
+              src="image/4logo.png"
+              alt=""
+            />
+            <div class="social-icons">
+              <a href="https://github.com/4ourpixels"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
+                ><i class="fa-solid fa-podcast"></i
+              ></a>
+              <a href="https://www.instagram.com/4ourpixels"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com/4ourpixels"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.youtube.com/channel/UC9HP_DqruMAplsz0-ynveaQ"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://www.mixcloud.com/djg400"
+                ><i class="fa-brands fa-mixcloud"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form id="form" name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                type="text"
+                name="Message"
+                rows="6"
+                placeholder="Your Message..."
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2023 4our Pixels</p>
+      </div>
+    </div>
+    <script src="./image/js.js"></script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwLq3Nzvc_DU_3lJQD3jU3RTljc6XdwQJmOlNrcgZmDSIhyjITbEOH9Y4T4_UTej5YG6Q/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
